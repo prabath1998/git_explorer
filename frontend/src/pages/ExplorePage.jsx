@@ -65,6 +65,12 @@ const ExplorePage = () => {
 						className='h-11 sm:h-20 cursor-pointer'
 						onClick={() => exploreRepos("php")}
 					/>
+					<img
+						src='/go.svg'
+						alt='go logo'
+						className='h-11 sm:h-20 cursor-pointer'
+						onClick={() => exploreRepos("go")}
+					/>
 				</div>
 				{repos.length > 0 && (
 					<h2 className='text-lg font-semibold text-center my-4'>
